@@ -1,0 +1,23 @@
+
+<div class="content-login">
+  
+  <div class="content-welcome">
+    <div class="welcome">
+      <h1>Lorem ipsum dolor sit amet</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aperiam perspiciatis, molestiae quis quod cumque, possimus odio, corrupti placeat aliquam eveniet praesentium maxime rerum repellat nihil voluptate incidunt fugit. Qui!</p>
+    </div>
+  </div>
+
+  <div class="content-form">
+    <div class="form">
+      <img src="assets/images/lock.svg" id="lock">
+      <span class="error" *ngIf="error">{{ error }}</span>
+      <button (click)="loginFb()" id="fb">Ingresa con Facebook</button>
+      <button (click)="loginGoogle()" id="google">Ingresa con Google</button>
+      <button routerLink="/login-email" id="email">Correo electrónico</button>
+      <a routerLink="/signup" routerLinkActive="active" class="alc">¿No tienes una cuenta aún? <strong>Créala aquí</strong></a>
+    </div>
+  </div>
+
+</div>
+

@@ -1,0 +1,111 @@
+.content-login {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100vw;
+    height: 100vh;
+}
+    
+
+    .content-welcome {
+        width: 100%;
+        background:rgb(241, 188, 14);
+        display: flex;
+        align-items: center;
+    }
+    .welcome h1, .welcome p{
+        text-align: right;
+        padding: 0px 50px 0px 50px;
+    }
+
+
+    .content-form{
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .form{
+        width: 400px;
+        border: 1px solid red;
+    }
+
+
+
+button {
+    padding:1em;
+    width:80%;
+    cursor:pointer;
+    font-size:1.3em;
+    margin: auto;
+    margin-bottom:10px;
+    display: block;
+}
+
+
+input.txt {
+    background:#fff !important;
+    padding:1.3em 1em;
+    font-size:1.3em;
+    border: 1px solid #BBBBBB;
+}
+
+h2 {
+    margin: 1.7em 0 .9em 0;
+}
+
+.alc {
+    text-align:center;
+    display:block;
+    margin: 15px 0;
+}
+
+.error {
+    background:#f1f0ef;
+    padding:1em;
+    width:100%;
+    display:block;
+    margin-bottom:20px;
+}
+
+#goback {
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:.8em;
+    color:#3B8598;
+}
+#goback span {
+    font-size:1em;
+}
+
+#lock {
+    width:20%;
+    margin: auto;
+    display:block;
+}
+
+#fb {
+    background:#3B5998 url('assets/images/facebook.svg') no-repeat 14px 6px;
+    background-size: 47px;
+    color:#fff;
+}
+
+#google {
+    border: 1px solid #95989A;
+    background: #fff  url('assets/images/google.svg') no-repeat 25px;
+    background-size: 25px;
+}
+
+#email {
+    background: #ECECEC  url('assets/images/email.svg') no-repeat 25px;
+    background-size: 25px;
+}
+
+@media (max-width: 870px) {
+    .content-login {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100vw;
+    }
+    
+
+}
